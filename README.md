@@ -30,11 +30,13 @@ Accidentally revealing login credentials during screen sharing is more common th
 
 **Normal Login Page (No Protection):**
 
-![Before Blur](./7e01a2a6-4fff-4021-a471-4abe00f57fe7.png)
+![Before Blur](./<img width="796" height="426" alt="image" src="https://github.com/user-attachments/assets/41f964c9-8c05-4c2a-a91c-85e37e636547" />
+)
 
 **With Privacy Shield Enabled (Sensitive Fields Blurred):**
 
-![After Blur](./03763e1b-3957-45bb-b1ad-8beabb9ee691.png)
+![After Blur](./<img width="793" height="422" alt="image" src="https://github.com/user-attachments/assets/a39b3283-0d81-4860-820f-34d285bc9512" />
+)
 
 ---
 
