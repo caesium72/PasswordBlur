@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Shield</h1>
+    </header>
+
+    <div class="main-toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="sharing-mode-toggle">
+        <span class="slider round"></span>
+      </label>
+      <span class="label-text">Sharing Mode</span>
+    </div>
+
+    <div class="options">
+      <div class="option-item">
+        <label>
+          <input type="checkbox" id="blur-password"> Blur password fields
+        </label>
+      </div>
+      <div class="option-item">
+        <label>
+          <input type="checkbox" id="blur-username"> Blur username/email fields
+        </label>
+      </div>
+      <div class="option-item">
+        <label>
+          <input type="checkbox" id="presenter-window-option"> Presenter Window Mode
+        </label>
+      </div>
+    </div>
+
+    <div class="site-controls">
+      <div id="current-site-display">Current Site: <span id="hostname">Loading...</span></div>
+      <button id="toggle-site-btn" class="secondary-btn">Disable on this site</button>
+    </div>
+
+    <div id="presenter-section" class="hidden">
+      <hr>
+      <button id="open-presenter-btn" class="primary-btn">Open Presenter Window</button>
+      <p class="small-text">Opens current tab in a new popup window to hide browser UI.</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
